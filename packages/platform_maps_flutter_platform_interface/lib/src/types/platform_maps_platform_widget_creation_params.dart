@@ -30,6 +30,8 @@ class PlatformMapsPlatformWidgetCreationParams {
     this.polygons = const <Polygon>{},
     this.polylines = const <Polyline>{},
     this.circles = const <Circle>{},
+    this.googleMapsStyle,
+    this.googleMapsCloudMapId,
     this.onCameraMoveStarted,
     this.onCameraMove,
     this.onCameraIdle,
@@ -156,6 +158,10 @@ class PlatformMapsPlatformWidgetCreationParams {
 
   /// Enables or disables the traffic layer of the map
   final bool trafficEnabled;
+
+  final String? googleMapsStyle;
+
+  final String? googleMapsCloudMapId;
 
   /// Which gestures should be consumed by the map.
   ///
