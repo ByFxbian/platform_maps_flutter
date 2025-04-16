@@ -52,6 +52,8 @@ class PlatformMap extends StatelessWidget {
             polygons: polygons,
             circles: circles,
             markers: markers,
+            googleMapsStyle: googleMapsStyle,
+            googleMapsCloudMapId: googleMapsCloudMapId,
             rotateGesturesEnabled: rotateGesturesEnabled,
             scrollGesturesEnabled: scrollGesturesEnabled,
             tiltGesturesEnabled: tiltGesturesEnabled,
